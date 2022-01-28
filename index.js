@@ -32,12 +32,12 @@ function makeSound(key){
     break;
 
     case 'd':
-      let tom4 = new Audio('./sounds/tom-4.mp3');
+      let tom4 = new Audio('/sounds/tom-4.mp3');
       tom4.play();
     break;
 
     case 'j':
-      let snare = new Audio('./sounds/snare.mp3');
+      let snare = new Audio('/sounds/snare.mp3');
       snare.play();
     break;   
 
@@ -47,7 +47,7 @@ function makeSound(key){
     break;
 
     case 'l':
-      let kick = new Audio('./sounds/kick-bass.mp3');
+      let kick = new Audio('/sounds/kick-bass.mp3');
       kick.play();
     break;
     default: console.log(buttonInnerHTML);
